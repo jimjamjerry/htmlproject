@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Listing</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header class="hor">
+    <div class="horz1">
+      <img src="logo.jpg" alt="logo of movie">
+      <p>Movies</p>
+    </div>
+    <div class="horz2">
+      <ul>
+        <li><a  class="active" href="i"><b>New</b></a></li>
+        <li><a href="i"><b>Movies</b></a></li>
+        <li><a href="i"><b>Tv series</b></a></li>
+        <li><a href="i"><b>Animated movies</b></a></li>
+        <li><a href="i"><b>Kids</b></a></li>
+        <li><a href="i"><b>Top IMDB</b></a></li>
+      </ul>
+    </div>
+    <div class="horz3">
+      <input type="text" name="q" placeholder="Search">
+      <button  type="submit" onclick="docment.location=''"><b>submit</b></button>
+    </div>
+  </header>
+  
+  <div class="ver">
+    <h1>Menu</h1>
+    <ul>
+      <li><a href="i">Home</a></li>
+      <li><a href="i">watch list</a></li>
+      <li><a herf="i">Membership</a></li>
+      <li><a href="i">support</a></li>
+      <li><a href="i">Help</a></li>
+      <li><a href="i">Contact Us</a></li>
+    </ul>
+  </div>
+  <main>
+    <div id="movies"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
